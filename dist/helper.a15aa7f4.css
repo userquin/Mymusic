@@ -144,7 +144,7 @@
   order: 2;
   flex: 1;
   height: 4px;
-  background: #0025f1;
+  background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
   border-radius: 2px;
   margin: 0 10px;
 }
@@ -164,7 +164,7 @@
   display: block;
   width: 16px;
   height: 16px;
-  background: url(/progress.798a5c76.svg) 0 0 no-repeat;
+  background: url("https://api.iconify.design/openmoji:radio-button.svg?color=currentColor") no-repeat center center/contain;
   background-size: contain;
 }
 #player .footer .actions {
