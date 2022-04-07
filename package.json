@@ -14,7 +14,6 @@
   "license": "ISC",
   "devDependencies": {
     "vite": "^2.9.1",
-    "parcel-bundler": "^1.12.5",
     "sass": "^1.50.0"
   },
   "stackblitz": {
