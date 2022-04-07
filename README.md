@@ -1,4 +1,4 @@
-# music
+# Mymusic
 
 
 ## 介绍
@@ -9,3 +9,7 @@
 ```
 npx parcel index.html --no-cache
 ```
+
+## Run on StackBlitz
+
+Just click on the following link: [Mymusic on StackBlitz](https://stackblitz.com/fork/github/userquin/Mymusic)

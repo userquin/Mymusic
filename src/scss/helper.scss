@@ -35,25 +35,25 @@ $background1: url('https://api.iconify.design/openmoji:radio-button.svg?color=cu
           border-radius: 50%;
           background: $color2-darker;
           margin: 0 4px;
-  
+
           &.current {
             width: 8px;
             height: 8px;
             background: $color2;
           }
         }
-        
+
       }
-    }  
-  
+    }
+
     .panels {
       width: 200vw;
       height: calc(100vh - 270px);
       display: flex;
-      
+
       transition: transform 0.3s;
       align-items: center;
-  
+
       &.panel1 {
         transform: translateX(0vw);
       }
@@ -77,19 +77,19 @@ $background1: url('https://api.iconify.design/openmoji:radio-button.svg?color=cu
             position: absolute;
           }
           .effect-1 {
-            background: url(../svg/effect-no-move.svg) 0 0 no-repeat;
+            background: url(/svg/effect-no-move.svg) 0 0 no-repeat;
             width: 70vw;
             height: 70vw;
             animation: rotate 20s linear infinite;
           }
           .effect-2 {
-            background: url(../svg/effect-move1.svg) 0 0 no-repeat;
+            background: url(/svg/effect-move1.svg) 0 0 no-repeat;
             width: 60vw;
             height: 60vw;
             animation: rotate 10s linear infinite reverse;
           }
           .effect-3 {
-            background: url(../svg/effect-move2.svg) 0 0 no-repeat;
+            background: url(/svg/effect-move2.svg) 0 0 no-repeat;
             width: 24vw;
             height: 24vw;
             animation: rotate 10s linear infinite;
@@ -101,7 +101,7 @@ $background1: url('https://api.iconify.design/openmoji:radio-button.svg?color=cu
             font-size: 14px;
             color: $color1;
             margin-top: 8px;
-  
+
             &.current {
               color: $color;
             }
@@ -119,31 +119,31 @@ $background1: url('https://api.iconify.design/openmoji:radio-button.svg?color=cu
             color: $color1;
             line-height: 2;
             font-size: 14px;
-  
+
             &.current {
               color: $color;
             }
           }
         }
-  
+
       }
     }
-  
-  
+
+
     .footer {
       height: 160px;
       .buttons {
         display: flex;
         justify-content: center;
-    
+
         svg {
           width: 24px;
           height: 24px;
           margin: 0 20px;
         }
       }
-    
-      
+
+
       .bar-area {
         color: $color1;
         font-size: 12px;
@@ -173,7 +173,7 @@ $background1: url('https://api.iconify.design/openmoji:radio-button.svg?color=cu
             border-radius: 2px;
             background: $color2;
             position: relative;
-    
+
             &::after {
               content: '';
               position: absolute;
@@ -188,31 +188,31 @@ $background1: url('https://api.iconify.design/openmoji:radio-button.svg?color=cu
           }
         }
       }
-    
+
       .actions {
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin-top: 20px;
         padding: 0 20px;
-    
+
         svg {
           width: 28px;
           height: 28px;
-    
+
           &.btn-play-pause {
             width: 50px;
-            height: 50px;       
+            height: 50px;
           }
         }
-    
+
       }
-    
+
     }
-  
+
   }
-  
-  
+
+
   @keyframes rotate {
     0% {
       transform: rotate(0)
