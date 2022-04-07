@@ -1,0 +1,24 @@
+[
+    {
+        "id":"0",
+        "title":"蓝",
+        "author":"石白琪",
+        "albumn":"蓝",
+        "url":"/Users/jackwang/Desktop/Jack/music/src/石白其 - 蓝.mp3"
+    },
+    {
+        "id":"1",
+        "title":"La La Lost You",
+        "author":"88rising,NIKI",
+        "albumn":"NIKI Acoustic Sessions: Head In The Clouds II",
+        "url":"/Users/jackwang/Desktop/Jack/music/src/88rising,NIKI - La La Lost You (Acoustic Version).mp3"
+    },
+    {
+        "id":"2",
+        "title":"Go GO GO",
+        "author":"Luck Nine",
+        "albumn":"Go GO GO",
+        "url":"/Users/jackwang/Desktop/Jack/music/src/Lucky Nine - Go Go Go Go.mp3"
+    }
+
+]
